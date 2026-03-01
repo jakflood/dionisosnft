@@ -1,0 +1,12 @@
+{
+  "name": "@dionisos/contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "setup": "bash ./script/setup.sh",
+    "test": "bash ./script/test.sh",
+    "build": "bash ./script/setup.sh && forge build",
+    "lint": "echo 'solidity lint: add slither later'",
+    "typecheck": "echo 'n/a'"
+  }
+}
